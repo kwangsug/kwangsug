@@ -25,6 +25,11 @@ semantic-job-matching-v0.1/
 │   ├── job_schema.json              # 채용공고 JSON 스키마
 │   ├── job_example.json             # 샘플 (비워둠)
 │   └── candidate_schema.json        # 후보자 JSON 스키마
+├── scripts/
+│   └── parse_incruit_rss.py        # 인크루트 RSS → 6축 JSON 파서
+├── data/
+│   ├── rss_sample.xml              # 인크루트 RSS 샘플 (7건)
+│   └── parsed_output.json          # 파서 출력 결과
 ├── ontology/
 │   ├── industry.json               # 업종 분류 택소노미
 │   ├── location.json               # 지역 계층 구조
