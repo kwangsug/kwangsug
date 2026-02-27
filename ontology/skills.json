@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "axis": "skills",
+    "version": "0.1",
+    "description": "스킬 택소노미 + 동의어 (한국 채용시장 기준)",
+    "lang": "ko"
+  },
+  "taxonomy": [
+    {
+      "code": "SKL-LANG",
+      "label_ko": "프로그래밍 언어",
+      "label_en": "Programming Languages",
+      "children": [
+        { "code": "SKL-LANG-PY", "label_ko": "Python", "aliases": ["파이썬", "python3"] },
+        { "code": "SKL-LANG-JAVA", "label_ko": "Java", "aliases": ["자바", "JDK", "J2EE"] },
+        { "code": "SKL-LANG-JS", "label_ko": "JavaScript", "aliases": ["자바스크립트", "JS", "ES6"] },
+        { "code": "SKL-LANG-TS", "label_ko": "TypeScript", "aliases": ["타입스크립트", "TS"] },
+        { "code": "SKL-LANG-KT", "label_ko": "Kotlin", "aliases": ["코틀린"] },
+        { "code": "SKL-LANG-SWIFT", "label_ko": "Swift", "aliases": ["스위프트"] },
+        { "code": "SKL-LANG-GO", "label_ko": "Go", "aliases": ["Golang", "고랭"] },
+        { "code": "SKL-LANG-RUST", "label_ko": "Rust", "aliases": ["러스트"] },
+        { "code": "SKL-LANG-CPP", "label_ko": "C/C++", "aliases": ["씨플플", "C언어"] },
+        { "code": "SKL-LANG-CS", "label_ko": "C#", "aliases": ["씨샵", ".NET"] },
+        { "code": "SKL-LANG-SQL", "label_ko": "SQL", "aliases": ["쿼리"] },
+        { "code": "SKL-LANG-PHP", "label_ko": "PHP", "aliases": [] },
+        { "code": "SKL-LANG-RUBY", "label_ko": "Ruby", "aliases": ["루비"] }
+      ]
+    },
+    {
+      "code": "SKL-FW",
+      "label_ko": "프레임워크·라이브러리",
+      "label_en": "Frameworks / Libraries",
+      "children": [
+        { "code": "SKL-FW-SPRING", "label_ko": "Spring / Spring Boot", "aliases": ["스프링", "스프링부트"] },
+        { "code": "SKL-FW-DJANGO", "label_ko": "Django", "aliases": ["장고"] },
+        { "code": "SKL-FW-FAST", "label_ko": "FastAPI", "aliases": [] },
+        { "code": "SKL-FW-FLASK", "label_ko": "Flask", "aliases": ["플라스크"] },
+        { "code": "SKL-FW-REACT", "label_ko": "React", "aliases": ["리액트", "React.js", "ReactJS"] },
+        { "code": "SKL-FW-VUE", "label_ko": "Vue.js", "aliases": ["뷰", "Vue"] },
+        { "code": "SKL-FW-NEXT", "label_ko": "Next.js", "aliases": ["넥스트"] },
+        { "code": "SKL-FW-NODE", "label_ko": "Node.js", "aliases": ["노드", "Express", "NestJS"] },
+        { "code": "SKL-FW-RN", "label_ko": "React Native", "aliases": ["리액트네이티브", "RN"] },
+        { "code": "SKL-FW-FLUTTER", "label_ko": "Flutter", "aliases": ["플러터", "Dart"] },
+        { "code": "SKL-FW-PYTORCH", "label_ko": "PyTorch", "aliases": ["파이토치"] },
+        { "code": "SKL-FW-TF", "label_ko": "TensorFlow", "aliases": ["텐서플로"] }
+      ]
+    },
+    {
+      "code": "SKL-CLOUD",
+      "label_ko": "클라우드·인프라",
+      "label_en": "Cloud / Infrastructure",
+      "children": [
+        { "code": "SKL-CLOUD-AWS", "label_ko": "AWS", "aliases": ["Amazon Web Services", "아마존 웹 서비스"] },
+        { "code": "SKL-CLOUD-GCP", "label_ko": "GCP", "aliases": ["Google Cloud", "구글 클라우드"] },
+        { "code": "SKL-CLOUD-AZURE", "label_ko": "Azure", "aliases": ["MS Azure", "마이크로소프트 애저"] },
+        { "code": "SKL-CLOUD-NCP", "label_ko": "NCP", "aliases": ["Naver Cloud", "네이버 클라우드"] },
+        { "code": "SKL-CLOUD-DOCKER", "label_ko": "Docker", "aliases": ["도커", "컨테이너"] },
+        { "code": "SKL-CLOUD-K8S", "label_ko": "Kubernetes", "aliases": ["쿠버네티스", "K8s", "쿠베"] },
+        { "code": "SKL-CLOUD-TERRA", "label_ko": "Terraform", "aliases": ["테라폼", "IaC"] }
+      ]
+    },
+    {
+      "code": "SKL-DB",
+      "label_ko": "데이터베이스",
+      "label_en": "Databases",
+      "children": [
+        { "code": "SKL-DB-MYSQL", "label_ko": "MySQL", "aliases": ["마이에스큐엘"] },
+        { "code": "SKL-DB-PG", "label_ko": "PostgreSQL", "aliases": ["포스트그레스", "Postgres"] },
+        { "code": "SKL-DB-MONGO", "label_ko": "MongoDB", "aliases": ["몽고DB"] },
+        { "code": "SKL-DB-REDIS", "label_ko": "Redis", "aliases": ["레디스"] },
+        { "code": "SKL-DB-ES", "label_ko": "Elasticsearch", "aliases": ["엘라스틱서치", "ES", "ELK"] },
+        { "code": "SKL-DB-ORACLE", "label_ko": "Oracle", "aliases": ["오라클"] },
+        { "code": "SKL-DB-MSSQL", "label_ko": "MS SQL Server", "aliases": ["MSSQL"] }
+      ]
+    },
+    {
+      "code": "SKL-DATA",
+      "label_ko": "데이터·ML",
+      "label_en": "Data / ML",
+      "children": [
+        { "code": "SKL-DATA-SPARK", "label_ko": "Spark", "aliases": ["스파크", "PySpark"] },
+        { "code": "SKL-DATA-AIRFLOW", "label_ko": "Airflow", "aliases": ["에어플로우", "Apache Airflow"] },
+        { "code": "SKL-DATA-KAFKA", "label_ko": "Kafka", "aliases": ["카프카", "Apache Kafka"] },
+        { "code": "SKL-DATA-HADOOP", "label_ko": "Hadoop", "aliases": ["하둡"] },
+        { "code": "SKL-DATA-NLP", "label_ko": "NLP / 자연어처리", "aliases": ["자연어", "LLM", "GPT", "BERT"] },
+        { "code": "SKL-DATA-CV", "label_ko": "컴퓨터 비전", "aliases": ["CV", "영상처리", "이미지 인식"] }
+      ]
+    },
+    {
+      "code": "SKL-TOOL",
+      "label_ko": "도구·협업",
+      "label_en": "Tools / Collaboration",
+      "children": [
+        { "code": "SKL-TOOL-GIT", "label_ko": "Git", "aliases": ["GitHub", "GitLab", "깃"] },
+        { "code": "SKL-TOOL-JIRA", "label_ko": "Jira", "aliases": ["지라", "Confluence"] },
+        { "code": "SKL-TOOL-FIGMA", "label_ko": "Figma", "aliases": ["피그마"] },
+        { "code": "SKL-TOOL-SLACK", "label_ko": "Slack", "aliases": ["슬랙"] }
+      ]
+    },
+    {
+      "code": "SKL-CERT",
+      "label_ko": "자격증",
+      "label_en": "Certifications",
+      "children": [
+        { "code": "SKL-CERT-ENGIT", "label_ko": "정보처리기사", "aliases": ["정처기"] },
+        { "code": "SKL-CERT-ENGNET", "label_ko": "네트워크관리사", "aliases": [] },
+        { "code": "SKL-CERT-SQLD", "label_ko": "SQLD / SQLP", "aliases": ["SQL 개발자", "SQL 전문가"] },
+        { "code": "SKL-CERT-AWS-SA", "label_ko": "AWS SAA", "aliases": ["AWS Solutions Architect"] },
+        { "code": "SKL-CERT-AWS-DEV", "label_ko": "AWS Developer", "aliases": [] },
+        { "code": "SKL-CERT-CKA", "label_ko": "CKA", "aliases": ["Certified Kubernetes Administrator"] },
+        { "code": "SKL-CERT-PMP", "label_ko": "PMP", "aliases": ["Project Management Professional"] }
+      ]
+    },
+    {
+      "code": "SKL-SOFT",
+      "label_ko": "소프트스킬",
+      "label_en": "Soft Skills",
+      "children": [
+        { "code": "SKL-SOFT-COMM", "label_ko": "커뮤니케이션", "aliases": ["의사소통", "소통 능력"] },
+        { "code": "SKL-SOFT-LEAD", "label_ko": "리더십", "aliases": ["팀 리딩", "조직 관리"] },
+        { "code": "SKL-SOFT-PROB", "label_ko": "문제해결", "aliases": ["문제 해결 능력", "분석력"] },
+        { "code": "SKL-SOFT-COOP", "label_ko": "협업", "aliases": ["팀워크", "협동"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "axis": "compensation",
+    "version": "0.1",
+    "description": "보수 구간·복리후생 표준코드 (한국 채용시장 기준)",
+    "lang": "ko"
+  },
+  "salary_bands": [
+    { "code": "SAL-01", "label_ko": "2,400만 미만", "label_en": "< 24M KRW", "min": 0, "max": 24000000, "currency": "KRW" },
+    { "code": "SAL-02", "label_ko": "2,400만~3,000만", "label_en": "24M-30M KRW", "min": 24000000, "max": 30000000, "currency": "KRW" },
+    { "code": "SAL-03", "label_ko": "3,000만~4,000만", "label_en": "30M-40M KRW", "min": 30000000, "max": 40000000, "currency": "KRW" },
+    { "code": "SAL-04", "label_ko": "4,000만~5,000만", "label_en": "40M-50M KRW", "min": 40000000, "max": 50000000, "currency": "KRW" },
+    { "code": "SAL-05", "label_ko": "5,000만~6,000만", "label_en": "50M-60M KRW", "min": 50000000, "max": 60000000, "currency": "KRW" },
+    { "code": "SAL-06", "label_ko": "6,000만~8,000만", "label_en": "60M-80M KRW", "min": 60000000, "max": 80000000, "currency": "KRW" },
+    { "code": "SAL-07", "label_ko": "8,000만~1억", "label_en": "80M-100M KRW", "min": 80000000, "max": 100000000, "currency": "KRW" },
+    { "code": "SAL-08", "label_ko": "1억 이상", "label_en": "> 100M KRW", "min": 100000000, "max": null, "currency": "KRW" },
+    { "code": "SAL-NEG", "label_ko": "회사내규·협의", "label_en": "Negotiable", "min": null, "max": null, "currency": "KRW" }
+  ],
+  "benefits": [
+    { "code": "BEN-FLEX", "label_ko": "유연근무제", "label_en": "Flexible Hours", "category": "근무환경" },
+    { "code": "BEN-REMOTE", "label_ko": "재택근무", "label_en": "Remote Work", "category": "근무환경" },
+    { "code": "BEN-STOCK", "label_ko": "스톡옵션·RSU", "label_en": "Stock Options / RSU", "category": "보상" },
+    { "code": "BEN-BONUS", "label_ko": "성과급·인센티브", "label_en": "Performance Bonus", "category": "보상" },
+    { "code": "BEN-RETIRE", "label_ko": "퇴직연금 (DC/DB)", "label_en": "Retirement Plan", "category": "보상" },
+    { "code": "BEN-MED", "label_ko": "건강검진·의료비 지원", "label_en": "Health Checkup / Medical Support", "category": "복지" },
+    { "code": "BEN-MEAL", "label_ko": "식대·중식 제공", "label_en": "Meal Allowance", "category": "복지" },
+    { "code": "BEN-EDU", "label_ko": "교육비·자기계발비", "label_en": "Education / Training Allowance", "category": "성장" },
+    { "code": "BEN-CONF", "label_ko": "컨퍼런스·세미나 지원", "label_en": "Conference Support", "category": "성장" },
+    { "code": "BEN-LEAVE", "label_ko": "연차 외 추가 휴가", "label_en": "Additional Paid Leave", "category": "복지" },
+    { "code": "BEN-CHILD", "label_ko": "육아·출산 지원", "label_en": "Parental Support", "category": "복지" },
+    { "code": "BEN-HOUSE", "label_ko": "주거·주택자금 지원", "label_en": "Housing Support", "category": "복지" },
+    { "code": "BEN-COMMUTE", "label_ko": "교통비·통근버스", "label_en": "Commute Support", "category": "복지" }
+  ]
+}

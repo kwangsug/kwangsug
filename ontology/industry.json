@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "axis": "company",
+    "field": "industry",
+    "version": "0.1",
+    "description": "업종 분류 택소노미 (인크루트 기준)",
+    "lang": "ko"
+  },
+  "taxonomy": [
+    {
+      "code": "IND-IT",
+      "label_ko": "IT·인터넷·통신",
+      "label_en": "IT / Internet / Telecom",
+      "children": [
+        { "code": "IND-IT-SW", "label_ko": "소프트웨어·솔루션", "label_en": "Software / Solutions" },
+        { "code": "IND-IT-WEB", "label_ko": "인터넷·포털·SNS", "label_en": "Internet / Portal / SNS" },
+        { "code": "IND-IT-GAME", "label_ko": "게임", "label_en": "Game" },
+        { "code": "IND-IT-TELCO", "label_ko": "통신·모바일", "label_en": "Telecom / Mobile" },
+        { "code": "IND-IT-SI", "label_ko": "SI·IT서비스", "label_en": "SI / IT Services" },
+        { "code": "IND-IT-SEC", "label_ko": "정보보안", "label_en": "Information Security" },
+        { "code": "IND-IT-AI", "label_ko": "AI·빅데이터", "label_en": "AI / Big Data" }
+      ]
+    },
+    {
+      "code": "IND-FIN",
+      "label_ko": "금융·보험",
+      "label_en": "Finance / Insurance",
+      "children": [
+        { "code": "IND-FIN-BANK", "label_ko": "은행·저축은행", "label_en": "Banking" },
+        { "code": "IND-FIN-SEC", "label_ko": "증권·투자", "label_en": "Securities / Investment" },
+        { "code": "IND-FIN-INS", "label_ko": "보험", "label_en": "Insurance" },
+        { "code": "IND-FIN-CARD", "label_ko": "카드·캐피탈", "label_en": "Card / Capital" },
+        { "code": "IND-FIN-FINTECH", "label_ko": "핀테크", "label_en": "Fintech" }
+      ]
+    },
+    {
+      "code": "IND-MFG",
+      "label_ko": "제조·생산",
+      "label_en": "Manufacturing / Production",
+      "children": [
+        { "code": "IND-MFG-SEMI", "label_ko": "반도체·디스플레이", "label_en": "Semiconductor / Display" },
+        { "code": "IND-MFG-ELEC", "label_ko": "전자·전기", "label_en": "Electronics / Electrical" },
+        { "code": "IND-MFG-AUTO", "label_ko": "자동차·부품", "label_en": "Automotive / Parts" },
+        { "code": "IND-MFG-CHEM", "label_ko": "화학·에너지", "label_en": "Chemical / Energy" },
+        { "code": "IND-MFG-BIO", "label_ko": "바이오·제약", "label_en": "Bio / Pharmaceutical" },
+        { "code": "IND-MFG-FOOD", "label_ko": "식품·음료", "label_en": "Food / Beverage" },
+        { "code": "IND-MFG-TEXT", "label_ko": "섬유·의류", "label_en": "Textile / Apparel" },
+        { "code": "IND-MFG-STEEL", "label_ko": "철강·금속", "label_en": "Steel / Metal" }
+      ]
+    },
+    {
+      "code": "IND-CON",
+      "label_ko": "건설·부동산",
+      "label_en": "Construction / Real Estate",
+      "children": [
+        { "code": "IND-CON-GEN", "label_ko": "종합건설", "label_en": "General Construction" },
+        { "code": "IND-CON-ARCH", "label_ko": "건축·설계", "label_en": "Architecture / Design" },
+        { "code": "IND-CON-RE", "label_ko": "부동산·임대", "label_en": "Real Estate / Leasing" }
+      ]
+    },
+    {
+      "code": "IND-DIST",
+      "label_ko": "유통·무역",
+      "label_en": "Distribution / Trade",
+      "children": [
+        { "code": "IND-DIST-RETAIL", "label_ko": "유통·소매", "label_en": "Retail" },
+        { "code": "IND-DIST-ECOM", "label_ko": "전자상거래", "label_en": "E-commerce" },
+        { "code": "IND-DIST-TRADE", "label_ko": "무역·수출입", "label_en": "Import / Export" },
+        { "code": "IND-DIST-LOG", "label_ko": "물류·운송", "label_en": "Logistics / Transport" }
+      ]
+    },
+    {
+      "code": "IND-SVC",
+      "label_ko": "서비스",
+      "label_en": "Services",
+      "children": [
+        { "code": "IND-SVC-CONS", "label_ko": "컨설팅", "label_en": "Consulting" },
+        { "code": "IND-SVC-AD", "label_ko": "광고·마케팅", "label_en": "Advertising / Marketing" },
+        { "code": "IND-SVC-HR", "label_ko": "인력·아웃소싱", "label_en": "HR / Outsourcing" },
+        { "code": "IND-SVC-LEGAL", "label_ko": "법률·회계", "label_en": "Legal / Accounting" }
+      ]
+    },
+    {
+      "code": "IND-EDU",
+      "label_ko": "교육",
+      "label_en": "Education",
+      "children": [
+        { "code": "IND-EDU-UNIV", "label_ko": "대학·대학원", "label_en": "University" },
+        { "code": "IND-EDU-ACAD", "label_ko": "학원·교육서비스", "label_en": "Academy / EdTech" },
+        { "code": "IND-EDU-RES", "label_ko": "연구기관", "label_en": "Research Institute" }
+      ]
+    },
+    {
+      "code": "IND-MED",
+      "label_ko": "의료·헬스케어",
+      "label_en": "Medical / Healthcare",
+      "children": [
+        { "code": "IND-MED-HOSP", "label_ko": "병원·의원", "label_en": "Hospital / Clinic" },
+        { "code": "IND-MED-DEVICE", "label_ko": "의료기기", "label_en": "Medical Device" },
+        { "code": "IND-MED-HEALTH", "label_ko": "헬스케어·웰니스", "label_en": "Healthcare / Wellness" }
+      ]
+    },
+    {
+      "code": "IND-MEDIA",
+      "label_ko": "미디어·엔터",
+      "label_en": "Media / Entertainment",
+      "children": [
+        { "code": "IND-MEDIA-BC", "label_ko": "방송·언론", "label_en": "Broadcasting / Press" },
+        { "code": "IND-MEDIA-ENT", "label_ko": "엔터테인먼트", "label_en": "Entertainment" },
+        { "code": "IND-MEDIA-PUB", "label_ko": "출판·콘텐츠", "label_en": "Publishing / Content" }
+      ]
+    },
+    {
+      "code": "IND-GOV",
+      "label_ko": "공공·비영리",
+      "label_en": "Public / Non-profit",
+      "children": [
+        { "code": "IND-GOV-PUB", "label_ko": "공기업·공공기관", "label_en": "Public Corporation" },
+        { "code": "IND-GOV-NPO", "label_ko": "비영리·NGO", "label_en": "NGO / Non-profit" }
+      ]
+    }
+  ],
+  "aliases": {
+    "IT": "IND-IT",
+    "정보통신": "IND-IT",
+    "ICT": "IND-IT",
+    "핀테크": "IND-FIN-FINTECH",
+    "제조업": "IND-MFG",
+    "반도체": "IND-MFG-SEMI",
+    "자동차": "IND-MFG-AUTO",
+    "이커머스": "IND-DIST-ECOM",
+    "쇼핑몰": "IND-DIST-ECOM",
+    "병원": "IND-MED-HOSP",
+    "스타트업": null
+  }
+}

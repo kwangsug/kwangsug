@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "version": "0.1",
+    "description": "축간 관계 정의 (role→skills, seniority→compensation 등)",
+    "lang": "ko"
+  },
+  "role_to_skills": {
+    "_description": "직무별 대표적으로 요구되는 스킬 매핑 (required: 필수, preferred: 우대)",
+    "ROLE-DEV-BE": {
+      "required": ["SKL-LANG-JAVA", "SKL-LANG-PY", "SKL-DB-MYSQL", "SKL-DB-PG"],
+      "preferred": ["SKL-FW-SPRING", "SKL-CLOUD-AWS", "SKL-CLOUD-DOCKER", "SKL-DATA-KAFKA"]
+    },
+    "ROLE-DEV-FE": {
+      "required": ["SKL-LANG-JS", "SKL-LANG-TS", "SKL-FW-REACT"],
+      "preferred": ["SKL-FW-NEXT", "SKL-FW-VUE", "SKL-TOOL-FIGMA"]
+    },
+    "ROLE-DATA-DE": {
+      "required": ["SKL-LANG-PY", "SKL-LANG-SQL", "SKL-DATA-SPARK"],
+      "preferred": ["SKL-DATA-AIRFLOW", "SKL-DATA-KAFKA", "SKL-CLOUD-AWS"]
+    },
+    "ROLE-DATA-ML": {
+      "required": ["SKL-LANG-PY", "SKL-FW-PYTORCH"],
+      "preferred": ["SKL-FW-TF", "SKL-DATA-NLP", "SKL-DATA-CV", "SKL-CLOUD-AWS"]
+    },
+    "ROLE-INFRA-DEVOPS": {
+      "required": ["SKL-CLOUD-DOCKER", "SKL-CLOUD-K8S", "SKL-CLOUD-AWS"],
+      "preferred": ["SKL-CLOUD-TERRA", "SKL-DATA-KAFKA", "SKL-LANG-PY"]
+    },
+    "ROLE-PM-PO": {
+      "required": ["SKL-SOFT-COMM", "SKL-SOFT-PROB"],
+      "preferred": ["SKL-TOOL-JIRA", "SKL-TOOL-FIGMA", "SKL-LANG-SQL"]
+    },
+    "ROLE-DESIGN-UX": {
+      "required": ["SKL-TOOL-FIGMA"],
+      "preferred": ["SKL-SOFT-COMM", "SKL-LANG-JS"]
+    }
+  },
+  "seniority_to_salary": {
+    "_description": "직급별 일반적 연봉 구간 매핑 (한국 IT 업계 기준, 참고용)",
+    "SEN-INTERN": ["SAL-01"],
+    "SEN-ENTRY": ["SAL-02", "SAL-03"],
+    "SEN-JUNIOR": ["SAL-03", "SAL-04", "SAL-05"],
+    "SEN-MID": ["SAL-05", "SAL-06"],
+    "SEN-SENIOR": ["SAL-06", "SAL-07"],
+    "SEN-LEAD": ["SAL-07", "SAL-08"],
+    "SEN-EXEC": ["SAL-08"]
+  },
+  "industry_to_roles": {
+    "_description": "업종별 주요 채용 직무 (Top 5)",
+    "IND-IT-SW": ["ROLE-DEV-BE", "ROLE-DEV-FE", "ROLE-PM-PO", "ROLE-QA-AUTO", "ROLE-INFRA-DEVOPS"],
+    "IND-IT-AI": ["ROLE-DATA-ML", "ROLE-DATA-DE", "ROLE-DEV-BE", "ROLE-DATA-DS", "ROLE-PM-PO"],
+    "IND-FIN-FINTECH": ["ROLE-DEV-BE", "ROLE-DEV-FE", "ROLE-DATA-DA", "ROLE-INFRA-SEC", "ROLE-PM-PO"],
+    "IND-IT-GAME": ["ROLE-DEV-GAME", "ROLE-DEV-BE", "ROLE-DESIGN-GR", "ROLE-PM-SP", "ROLE-QA-MAN"],
+    "IND-DIST-ECOM": ["ROLE-DEV-BE", "ROLE-DEV-FE", "ROLE-MKT-DIG", "ROLE-MKT-GRW", "ROLE-DATA-DA"]
+  },
+  "role_to_seniority_distribution": {
+    "_description": "직무별 주로 채용되는 직급 분포 (참고용)",
+    "ROLE-DEV-BE": ["SEN-JUNIOR", "SEN-MID", "SEN-SENIOR"],
+    "ROLE-PM-PO": ["SEN-MID", "SEN-SENIOR", "SEN-LEAD"],
+    "ROLE-EXEC": ["SEN-EXEC"]
+  }
+}

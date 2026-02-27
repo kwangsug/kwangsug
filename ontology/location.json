@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "axis": "location",
+    "version": "0.1",
+    "description": "지역 계층 구조 (한국 중심 + 해외 주요 지역)",
+    "lang": "ko"
+  },
+  "taxonomy": [
+    {
+      "code": "LOC-KR",
+      "label_ko": "대한민국",
+      "label_en": "South Korea",
+      "children": [
+        {
+          "code": "LOC-KR-SEL",
+          "label_ko": "서울",
+          "label_en": "Seoul",
+          "children": [
+            { "code": "LOC-KR-SEL-GN", "label_ko": "강남·서초", "label_en": "Gangnam / Seocho" },
+            { "code": "LOC-KR-SEL-GD", "label_ko": "구로·가산디지털단지", "label_en": "Guro / Gasan Digital Complex" },
+            { "code": "LOC-KR-SEL-YS", "label_ko": "여의도·영등포", "label_en": "Yeouido / Yeongdeungpo" },
+            { "code": "LOC-KR-SEL-JG", "label_ko": "종로·중구", "label_en": "Jongno / Jung-gu" },
+            { "code": "LOC-KR-SEL-MP", "label_ko": "마포·상암", "label_en": "Mapo / Sangam" },
+            { "code": "LOC-KR-SEL-SC", "label_ko": "송파·잠실", "label_en": "Songpa / Jamsil" },
+            { "code": "LOC-KR-SEL-ETC", "label_ko": "서울 기타", "label_en": "Seoul Other" }
+          ]
+        },
+        {
+          "code": "LOC-KR-GGI",
+          "label_ko": "경기",
+          "label_en": "Gyeonggi",
+          "children": [
+            { "code": "LOC-KR-GGI-SNG", "label_ko": "성남·판교", "label_en": "Seongnam / Pangyo" },
+            { "code": "LOC-KR-GGI-SWN", "label_ko": "수원·화성", "label_en": "Suwon / Hwaseong" },
+            { "code": "LOC-KR-GGI-YIN", "label_ko": "용인", "label_en": "Yongin" },
+            { "code": "LOC-KR-GGI-ICN", "label_ko": "인천", "label_en": "Incheon" },
+            { "code": "LOC-KR-GGI-ETC", "label_ko": "경기 기타", "label_en": "Gyeonggi Other" }
+          ]
+        },
+        { "code": "LOC-KR-BSN", "label_ko": "부산", "label_en": "Busan" },
+        { "code": "LOC-KR-DGU", "label_ko": "대구", "label_en": "Daegu" },
+        { "code": "LOC-KR-DJN", "label_ko": "대전", "label_en": "Daejeon" },
+        { "code": "LOC-KR-GJU", "label_ko": "광주", "label_en": "Gwangju" },
+        { "code": "LOC-KR-ULS", "label_ko": "울산", "label_en": "Ulsan" },
+        { "code": "LOC-KR-JJU", "label_ko": "제주", "label_en": "Jeju" },
+        { "code": "LOC-KR-CBK", "label_ko": "충북", "label_en": "Chungbuk" },
+        { "code": "LOC-KR-CNM", "label_ko": "충남", "label_en": "Chungnam" },
+        { "code": "LOC-KR-GBK", "label_ko": "경북", "label_en": "Gyeongbuk" },
+        { "code": "LOC-KR-GNM", "label_ko": "경남", "label_en": "Gyeongnam" },
+        { "code": "LOC-KR-JBK", "label_ko": "전북", "label_en": "Jeonbuk" },
+        { "code": "LOC-KR-JNM", "label_ko": "전남", "label_en": "Jeonnam" },
+        { "code": "LOC-KR-GWN", "label_ko": "강원", "label_en": "Gangwon" },
+        { "code": "LOC-KR-SJG", "label_ko": "세종", "label_en": "Sejong" }
+      ]
+    },
+    {
+      "code": "LOC-OVERSEAS",
+      "label_ko": "해외",
+      "label_en": "Overseas",
+      "children": [
+        { "code": "LOC-OV-US", "label_ko": "미국", "label_en": "United States" },
+        { "code": "LOC-OV-JP", "label_ko": "일본", "label_en": "Japan" },
+        { "code": "LOC-OV-CN", "label_ko": "중국", "label_en": "China" },
+        { "code": "LOC-OV-SG", "label_ko": "싱가포르", "label_en": "Singapore" },
+        { "code": "LOC-OV-VN", "label_ko": "베트남", "label_en": "Vietnam" },
+        { "code": "LOC-OV-DE", "label_ko": "독일", "label_en": "Germany" },
+        { "code": "LOC-OV-ETC", "label_ko": "기타 해외", "label_en": "Other Overseas" }
+      ]
+    }
+  ],
+  "work_mode": [
+    { "code": "WM-ONSITE", "label_ko": "출근", "label_en": "Onsite", "aliases": ["사무실 출근", "오프라인", "현장근무"] },
+    { "code": "WM-HYBRID", "label_ko": "하이브리드", "label_en": "Hybrid", "aliases": ["재택+출근", "주3일 출근", "유연근무"] },
+    { "code": "WM-REMOTE", "label_ko": "원격", "label_en": "Remote", "aliases": ["재택근무", "풀리모트", "리모트워크", "WFH"] }
+  ],
+  "aliases": {
+    "판교": "LOC-KR-GGI-SNG",
+    "테헤란로": "LOC-KR-SEL-GN",
+    "가산": "LOC-KR-SEL-GD",
+    "디지털단지": "LOC-KR-SEL-GD",
+    "여의도": "LOC-KR-SEL-YS",
+    "상암": "LOC-KR-SEL-MP",
+    "잠실": "LOC-KR-SEL-SC",
+    "수도권": "LOC-KR-SEL"
+  }
+}

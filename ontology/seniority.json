@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "axis": "seniority",
+    "version": "0.1",
+    "description": "직급·경력 체계 (한국 기업 기준)",
+    "lang": "ko"
+  },
+  "levels": [
+    {
+      "code": "SEN-INTERN",
+      "label_ko": "인턴",
+      "label_en": "Intern",
+      "exp_years_min": 0,
+      "exp_years_max": 0,
+      "aliases": ["인턴십", "실습생", "체험형 인턴", "채용연계형 인턴"]
+    },
+    {
+      "code": "SEN-ENTRY",
+      "label_ko": "신입",
+      "label_en": "Entry Level",
+      "exp_years_min": 0,
+      "exp_years_max": 1,
+      "aliases": ["신입사원", "공채", "신규입사"]
+    },
+    {
+      "code": "SEN-JUNIOR",
+      "label_ko": "주니어 (사원~대리)",
+      "label_en": "Junior",
+      "exp_years_min": 1,
+      "exp_years_max": 4,
+      "aliases": ["사원", "주임", "대리", "사원급", "대리급"]
+    },
+    {
+      "code": "SEN-MID",
+      "label_ko": "미드레벨 (과장~차장)",
+      "label_en": "Mid-level",
+      "exp_years_min": 4,
+      "exp_years_max": 9,
+      "aliases": ["과장", "차장", "과장급", "차장급", "중간관리자"]
+    },
+    {
+      "code": "SEN-SENIOR",
+      "label_ko": "시니어 (부장)",
+      "label_en": "Senior",
+      "exp_years_min": 9,
+      "exp_years_max": 15,
+      "aliases": ["부장", "부장급", "매니저", "팀장"]
+    },
+    {
+      "code": "SEN-LEAD",
+      "label_ko": "리드 (팀장·파트장)",
+      "label_en": "Lead / Head",
+      "exp_years_min": 7,
+      "exp_years_max": null,
+      "aliases": ["팀장", "파트장", "리드", "그룹장", "TL", "Tech Lead"]
+    },
+    {
+      "code": "SEN-EXEC",
+      "label_ko": "임원 (이사 이상)",
+      "label_en": "Executive",
+      "exp_years_min": 12,
+      "exp_years_max": null,
+      "aliases": ["이사", "상무", "전무", "부사장", "사장", "대표이사", "CTO", "CIO", "CFO", "COO", "VP", "Director"]
+    }
+  ],
+  "tech_track": [
+    {
+      "code": "SEN-TECH-JR",
+      "label_ko": "주니어 개발자",
+      "label_en": "Junior Developer",
+      "maps_to": "SEN-JUNIOR"
+    },
+    {
+      "code": "SEN-TECH-MID",
+      "label_ko": "미드 개발자",
+      "label_en": "Mid Developer",
+      "maps_to": "SEN-MID"
+    },
+    {
+      "code": "SEN-TECH-SR",
+      "label_ko": "시니어 개발자",
+      "label_en": "Senior Developer",
+      "maps_to": "SEN-SENIOR"
+    },
+    {
+      "code": "SEN-TECH-STAFF",
+      "label_ko": "스태프 엔지니어",
+      "label_en": "Staff Engineer",
+      "maps_to": "SEN-LEAD"
+    },
+    {
+      "code": "SEN-TECH-PRINC",
+      "label_ko": "프린시팔 엔지니어",
+      "label_en": "Principal Engineer",
+      "maps_to": "SEN-EXEC"
+    }
+  ]
+}
